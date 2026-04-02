@@ -1,0 +1,77 @@
+/* [project]/src/pages/login/style.module.css [client] (css) */
+.style-module__cXfOGG__container {
+  background: snow;
+  justify-content: center;
+  align-items: center;
+  height: 90svh;
+  display: flex;
+}
+
+.style-module__cXfOGG__cardContainer {
+  background: #fff;
+  border-radius: 10px;
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 10px 10px 15px #adadad;
+}
+
+.style-module__cXfOGG__cardContainer_left {
+  text-align: center;
+  flex: .6;
+  padding: 2rem;
+}
+
+.style-module__cXfOGG__cardleft_heading {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.style-module__cXfOGG__inputField {
+  border: 1px solid silver;
+  border-radius: 10px;
+  outline: none;
+  width: 100%;
+  padding-block: .8rem;
+  padding-inline: 1.3rem;
+}
+
+.style-module__cXfOGG__inputContainers {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 400px;
+  margin: 0 auto;
+  padding-top: 1.4rem;
+  display: flex;
+}
+
+.style-module__cXfOGG__inputRow {
+  gap: 1.2rem;
+  width: fit-content;
+  display: flex;
+}
+
+.style-module__cXfOGG__buttonWithOutline {
+  cursor: pointer;
+  background: #ececec;
+  border-radius: 10px;
+  width: 100%;
+  padding: .8rem 1.3rem;
+}
+
+.style-module__cXfOGG__cardContainer_right {
+  color: #fff;
+  background: #0345a9;
+  flex-direction: column;
+  flex: .4;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  padding-inline: 1.2rem;
+  display: flex;
+}
+
+/*# sourceMappingURL=src_pages_login_style_module_9944acc6.css.map*/

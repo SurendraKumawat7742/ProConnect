@@ -1,0 +1,200 @@
+/* [project]/src/pages/profile/index.module.css [client] (css) */
+.index-module__08sLfW__container {
+  background: #fff;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding: 1.3rem;
+  display: flex;
+}
+
+.index-module__08sLfW__backDropContainer {
+  background: url("https://images.pexels.com/photos/2736943/pexels-photo-2736943.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") 0 0 / cover no-repeat;
+  border-radius: 20px;
+  width: 100%;
+  height: 30vh;
+  position: relative;
+}
+
+.index-module__08sLfW__backDropContainer img {
+  object-fit: cover;
+  text-align: center;
+  border-radius: 50%;
+  width: 8em;
+  height: 8em;
+  position: absolute;
+  bottom: -30%;
+  left: 6%;
+}
+
+.index-module__08sLfW__backDrop_overlay {
+  object-fit: cover;
+  text-align: center;
+  z-index: 4;
+  cursor: pointer;
+  color: #fff;
+  opacity: 0;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 8em;
+  height: 8em;
+  transition: all .4s;
+  display: flex;
+  position: absolute;
+  bottom: -30%;
+  left: 6%;
+}
+
+.index-module__08sLfW__backDrop_overlay:hover {
+  opacity: .8;
+  background: #000;
+}
+
+.index-module__08sLfW__profileContainer_details {
+  flex-direction: column;
+  padding-top: 5.5rem;
+  display: flex;
+}
+
+.index-module__08sLfW__card {
+  align-items: center;
+  gap: 1.3rem;
+  display: flex;
+}
+
+.index-module__08sLfW__card_profileContainer {
+  display: flex;
+}
+
+.index-module__08sLfW__card_profileContainer > img {
+  object-fit: cover;
+  width: 5.4rem;
+  height: 5.4rem;
+}
+
+.index-module__08sLfW__connectBtn {
+  color: #fff;
+  cursor: pointer;
+  background: #095db7e7;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  padding-block: .3rem;
+  padding-inline: .8rem;
+}
+
+.index-module__08sLfW__connectedButton {
+  color: #fff;
+  cursor: pointer;
+  background: #095db7e7;
+  border: 1px solid silver;
+  border-radius: 10px;
+  outline: none;
+  padding-block: .3rem;
+  padding-inline: .8rem;
+}
+
+.index-module__08sLfW__workHistoryContainer {
+  flex-wrap: wrap;
+  gap: 1.4rem;
+  width: 100%;
+  padding-top: 1.4rem;
+  display: flex;
+}
+
+.index-module__08sLfW__workHistoryCard {
+  border-radius: 20px;
+  padding-block: 1rem;
+  padding-inline: 2.5rem;
+  box-shadow: 10px 10px 15px #adadad;
+}
+
+.index-module__08sLfW__profileContainer_details input {
+  border-style: none;
+  outline: none;
+  width: fit-content;
+  padding-block: 8px;
+  padding-inline: 8px;
+}
+
+.index-module__08sLfW__nameEdit {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.index-module__08sLfW__updateProfileBtn {
+  color: #fff;
+  cursor: pointer;
+  background: #095db7e7;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  width: fit-content;
+  padding-block: .3rem;
+  padding-inline: .8rem;
+}
+
+.index-module__08sLfW__profileContainer_details textarea {
+  font-size: 1.1wrem;
+  border-style: none;
+  outline: none;
+  padding-block: 10px;
+  padding-inline: 10px;
+  font-family: Poppins !important;
+}
+
+.index-module__08sLfW__addWorkBtn {
+  cursor: pointer;
+  border: 1px dotted silver;
+  border-radius: 10px;
+  padding-block: 1rem;
+  padding-inline: 1.3rem;
+}
+
+.index-module__08sLfW__commentsContainer {
+  z-index: 5;
+  background: #000000b3;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.index-module__08sLfW__allCommentsContainer {
+  background: #fff;
+  border-radius: 10px;
+  flex-direction: column;
+  gap: 1.2rem;
+  width: 40vw;
+  height: fit-content;
+  padding: 1.4rem;
+  display: flex;
+  position: relative;
+}
+
+.index-module__08sLfW__inputField {
+  border: 1px solid silver;
+  border-radius: 10px;
+  outline: none;
+  width: 100%;
+  padding-block: .8rem;
+  padding-inline: 1.3rem;
+}
+
+.index-module__08sLfW__profileContainer_flex {
+  gap: .8rem;
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .index-module__08sLfW__profileContainer_flex {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=src_pages_profile_index_module_css_65f1660e._.single.css.map*/

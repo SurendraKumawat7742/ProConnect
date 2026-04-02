@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///S:/majorproject/socialMediaPlatform/frontend/src/components/navbar/styles.module.css"],"sourcesContent":[".container{\r\n    padding: 1.2rem;\r\n}\r\n.navbar{\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n}\r\n.navbarOptionContainer{\r\n    display: flex;\r\n}\r\n\r\n.buttonJoin{\r\n    width: fit-content;\r\n    cursor: pointer;\r\n    transition: all 0.2s;\r\n    margin-top: 0.8rem;\r\n    font-size: 0.7rem;\r\n    background: rgb(238, 64, 93);\r\n    color: white;\r\n    padding-inline: 1.2rem;\r\n    padding-block: 0.6rem;\r\n    border-radius: 20px;\r\n}"],"names":[],"mappings":"AAAA;;;;AAGA;;;;;;AAKA;;;;AAIA"}},
+    {"offset": {"line": 29, "column": 0}, "map": {"version":3,"sources":["file:///S:/majorproject/socialMediaPlatform/frontend/src/pages/discover/index.module.css"],"sourcesContent":[".allUsersProfile{\r\n    max-width: 80%;\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 1.2rem;\r\n}\r\n.userCard{\r\n    display: flex;\r\n    gap: 1.2rem;\r\n    padding: 1.3rem;\r\n    align-items: center;\r\n    cursor: pointer;\r\n    box-shadow: 10px 10px 10px 0px rgb(0,0,0,0.1);\r\n}\r\n.userCard_image{\r\n    width: 10%;\r\n    border-radius: 50%;\r\n}"],"names":[],"mappings":"AAAA;;;;;;;AAMA;;;;;;;;;AAQA"}}]
+}

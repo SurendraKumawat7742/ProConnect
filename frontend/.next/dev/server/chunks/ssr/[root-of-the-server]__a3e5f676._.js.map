@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///S:/majorproject/socialMediaPlatform/frontend/src/pages/login/index.js"],"sourcesContent":["import React, {useEffect} from 'react'\r\nimport userLayout from \"@layout/userLayout\"\r\n\r\nexport default function loginComponent() {\r\n  return (\r\n    <div>\r\n      \r\n    </div>\r\n  )\r\n}\r\n"],"names":[],"mappings":";;;;;AAAA;;;;;;;;;AAGe,SAAS;IACtB,qBACE,qKAAC;;;;;AAIL"}}]
+}

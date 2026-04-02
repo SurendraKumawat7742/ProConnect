@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///S:/majorproject/socialMediaPlatform/frontend/src/pages/_app.js"],"sourcesContent":["import {store} from \"@/config/redux/store\"\nimport \"@/styles/globals.css\";\nimport {Provider} from \"react-redux\"\n\nexport default function App({ Component, pageProps }) {\n  return(\n    <>\n      <Provider store={store}>\n\n        <Component {...pageProps} />;\n      </Provider>\n    </>\n  )\n}\n"],"names":[],"mappings":";;;;;AAAA;AAEA;;;;;;;;;AAEe,SAAS,IAAI,EAAE,SAAS,EAAE,SAAS,EAAE;IAClD,qBACE;kBACE,cAAA,qKAAC,6LAAQ;YAAC,OAAO,iIAAK;;8BAEpB,qKAAC;oBAAW,GAAG,SAAS;;;;;;gBAAI;;;;;;;;AAIpC"}}]
+}

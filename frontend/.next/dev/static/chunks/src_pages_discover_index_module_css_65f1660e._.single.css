@@ -1,0 +1,23 @@
+/* [project]/src/pages/discover/index.module.css [client] (css) */
+.index-module__0j-TBq__allUsersProfile {
+  flex-direction: column;
+  gap: 1.2rem;
+  max-width: 80%;
+  display: flex;
+}
+
+.index-module__0j-TBq__userCard {
+  cursor: pointer;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 1.3rem;
+  display: flex;
+  box-shadow: 10px 10px 10px #0000001a;
+}
+
+.index-module__0j-TBq__userCard_image {
+  border-radius: 50%;
+  width: 10%;
+}
+
+/*# sourceMappingURL=src_pages_discover_index_module_css_65f1660e._.single.css.map*/

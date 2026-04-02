@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///S:/majorproject/socialMediaPlatform/frontend/src/components/navbar/styles.module.css"],"sourcesContent":[".container{\r\n    padding: 1.2rem;\r\n}\r\n.navbar{\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n}\r\n.navbarOptionContainer{\r\n    display: flex;\r\n}\r\n\r\n.buttonJoin{\r\n    width: fit-content;\r\n    cursor: pointer;\r\n    transition: all 0.2s;\r\n    margin-top: 0.8rem;\r\n    font-size: 0.7rem;\r\n    background: rgb(238, 64, 93);\r\n    color: white;\r\n    padding-inline: 1.2rem;\r\n    padding-block: 0.6rem;\r\n    border-radius: 20px;\r\n}"],"names":[],"mappings":"AAAA;;;;AAGA;;;;;;AAKA;;;;AAIA"}}]
+}

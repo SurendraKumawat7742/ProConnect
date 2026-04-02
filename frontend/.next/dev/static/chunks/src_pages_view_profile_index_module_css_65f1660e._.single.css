@@ -1,0 +1,86 @@
+/* [project]/src/pages/view_profile/index.module.css [client] (css) */
+.index-module__wh4uvW__container {
+  background: #fff;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding: 1.3rem;
+  display: flex;
+}
+
+.index-module__wh4uvW__backDropContainer {
+  background: url("https://images.pexels.com/photos/2736943/pexels-photo-2736943.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") 0 0 / cover no-repeat;
+  border-radius: 20px;
+  width: 100%;
+  height: 30vh;
+  position: relative;
+}
+
+.index-module__wh4uvW__backDropContainer img {
+  object-fit: cover;
+  text-align: center;
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+  position: absolute;
+  bottom: -30%;
+  left: 6%;
+}
+
+.index-module__wh4uvW__profileContainer_details {
+  padding-top: 5.5rem;
+}
+
+.index-module__wh4uvW__card {
+  align-items: center;
+  gap: 1.3rem;
+  display: flex;
+}
+
+.index-module__wh4uvW__card_profileContainer {
+  display: flex;
+}
+
+.index-module__wh4uvW__card_profileContainer > img {
+  object-fit: cover;
+  width: 5.4rem;
+  height: 5.4rem;
+}
+
+.index-module__wh4uvW__connectBtn {
+  color: #fff;
+  cursor: pointer;
+  background: #095db7e7;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  padding-block: .3rem;
+  padding-inline: .8rem;
+}
+
+.index-module__wh4uvW__connectedButton {
+  color: #fff;
+  cursor: pointer;
+  background: #095db7e7;
+  border: 1px solid silver;
+  border-radius: 10px;
+  outline: none;
+  padding-block: .3rem;
+  padding-inline: .8rem;
+}
+
+.index-module__wh4uvW__workHistoryContainer {
+  flex-wrap: wrap;
+  gap: 1.4rem;
+  width: 100%;
+  padding-top: 1.4rem;
+  display: flex;
+}
+
+.index-module__wh4uvW__workHistoryCard {
+  border-radius: 20px;
+  padding-block: 1rem;
+  padding-inline: 2.5rem;
+  box-shadow: 10px 10px 15px #adadad;
+}
+
+/*# sourceMappingURL=src_pages_view_profile_index_module_css_65f1660e._.single.css.map*/

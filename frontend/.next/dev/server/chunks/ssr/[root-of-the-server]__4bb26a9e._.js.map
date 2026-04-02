@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///S:/majorproject/socialMediaPlatform/frontend/src/config/redux/store.js"],"sourcesContent":["import {configureStore} from \"@reduxjs/toolkit\"\r\nimport authReducer from \"./reducer/authReducer\"\r\n\r\n/*\r\nSteps for state management\r\n* submit action\r\n* manage action in it's reducer\r\n* register here -> reducer\r\n*/\r\n\r\nexport const store = configureStore({\r\n    reducer: {\r\n        auth: authReducer\r\n    }\r\n})"],"names":[],"mappings":";;;;AAAA;AACA;;;;;;;AASO,MAAM,QAAQ,IAAA,qNAAc,EAAC;IAChC,SAAS;QACL,MAAM,6JAAW;IACrB;AACJ"}},
+    {"offset": {"line": 42, "column": 0}, "map": {"version":3,"sources":["file:///S:/majorproject/socialMediaPlatform/frontend/src/pages/_app.js"],"sourcesContent":["import {store} from \"@/config/redux/store\"\nimport \"@/styles/globals.css\";\nimport {Provider} from \"react-redux\"\n\nexport default function App({ Component, pageProps }) {\n  return(\n    <>\n      <Provider store={store}>\n\n        <Component {...pageProps} />;\n      </Provider>\n    </>\n  )\n}\n"],"names":[],"mappings":";;;;;AAAA;AAEA;;;;;;;;;;AAEe,SAAS,IAAI,EAAE,SAAS,EAAE,SAAS,EAAE;IAClD,qBACE;kBACE,cAAA,qKAAC,6LAAQ;YAAC,OAAO,iIAAK;;8BAEpB,qKAAC;oBAAW,GAAG,SAAS;;;;;;gBAAI;;;;;;;;AAIpC"}}]
+}

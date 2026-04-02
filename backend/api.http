@@ -1,0 +1,58 @@
+POST http://localhost:9080/register HTTP/1.1
+content-Type: application/json
+
+{
+  "username":"s",
+  "password":"1234",
+  "email": "s@gmail.com",
+  "name":"s"
+}
+
+###
+POST http://localhost:9080/login HTTP/1.1
+content-Type: application/json
+
+{
+  "email":"s@gmail.com",
+  "password":"1234"
+}
+
+###
+
+GET http://localhost:9080/get_user_and_profile
+content-Type: application/json
+
+{
+  "token": "488c3d28fd923b7bbb8e6285b1ea507e6183943152df121eddb0ffb85601932c"
+}
+
+###
+
+POST http://localhost:9080/update_profile_data
+content-Type: application/json
+
+{
+  "token": "a5af1ba0d6afa5ac5ab797688d220f6e47c92f7d7c30658d5b0728ffd8152006",
+  "bio":"Hey, i'm mahendra!",
+  "currentPost":"CTO",
+  "pastWork": [
+    {
+      "company": "microsoft",
+      "position": "CTO",
+      "years": "2+"
+    }
+  ],
+  "education":[
+    {
+      "school":"GFTI",
+      "degree":"BTECH",
+      "fieldOfStudy":"2024-2028"
+    }
+  ]
+}
+
+###
+
+GET http://localhost:9080/user/get_all_users
+content-Type: application/json
+
