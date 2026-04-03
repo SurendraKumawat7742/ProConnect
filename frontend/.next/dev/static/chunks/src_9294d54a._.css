@@ -55,7 +55,7 @@
   width: 100vw;
   height: 6vh;
   display: none;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
 }
@@ -80,6 +80,10 @@
 
   .index-module__FY7iTa__mobileNavBar {
     display: flex;
+  }
+
+  .index-module__FY7iTa__homeContainer_feedContainer {
+    padding-bottom: 8vh;
   }
 }
 

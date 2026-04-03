@@ -80,8 +80,8 @@
       "routeKeys": {
         "nxtPusername": "nxtPusername"
       },
-      "dataRouteRegex": "^/_next/data/aatMhKKDx86PNvS8\\-ValC/view_profile/([^/]+?)\\.json$",
-      "namedDataRouteRegex": "^/_next/data/aatMhKKDx86PNvS8\\-ValC/view_profile/(?<nxtPusername>[^/]+?)\\.json$"
+      "dataRouteRegex": "^/_next/data/As_EoVQTEBHkj6pxq\\-gpg/view_profile/([^/]+?)\\.json$",
+      "namedDataRouteRegex": "^/_next/data/As_EoVQTEBHkj6pxq\\-gpg/view_profile/(?<nxtPusername>[^/]+?)\\.json$"
     }
   ],
   "rsc": {

@@ -5,6 +5,5 @@
   "/dashboard": "pages/dashboard.js",
   "/discover": "pages/discover.js",
   "/login": "pages/login.js",
-  "/my_connections": "pages/my_connections.js",
-  "/profile": "pages/profile.js"
+  "/my_connections": "pages/my_connections.js"
 }
