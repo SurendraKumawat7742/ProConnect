@@ -23,7 +23,7 @@ app.use(postRoutes);
 app.use(userRoutes);
 
 const start = async () => {
-    await mongoose.connect("mongodb+srv://jivankumawat7742_db_user:5OpB1A3KJXlYqY9W@cluster0.yvmxuri.mongodb.net/?appName=Cluster0");
+    await mongoose.connect(process.env.MONGO_URI);
 
     app.listen(9080, () => {
         console.log("Server is running on port 9080");
