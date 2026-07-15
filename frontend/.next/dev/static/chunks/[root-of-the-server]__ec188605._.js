@@ -473,7 +473,7 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$axios$2f$lib$2f$axios$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/axios/lib/axios.js [client] (ecmascript)");
 ;
-const BASE_URL = "http://localhost:9080";
+const BASE_URL = "https://linkedinclone-5gvz.onrender.com";
 const clientServer = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$axios$2f$lib$2f$axios$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].create({
     baseURL: BASE_URL
 });
@@ -706,7 +706,7 @@ const authSlice = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modul
             state.isLoading = false;
             state.isError = false;
             state.isSuccess = true;
-            state.loggedIn = true;
+            // state.loggedIn = true;
             state.message = {
                 message: "Registration is successful, please login"
             };
@@ -767,12 +767,12 @@ var _s = __turbopack_context__.k.signature();
 ;
 function DashboardLayout(t0) {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(44);
-    if ($[0] !== "ecba5912dab7c44abb313c039b468342c748afc8875ff023a3dfde502b550fea") {
-        for(let $i = 0; $i < 44; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(61);
+    if ($[0] !== "6dc91ebcd9783801c2e441667e643d0f9db47769c5d4890414c35bd2bfebf66a") {
+        for(let $i = 0; $i < 61; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "ecba5912dab7c44abb313c039b468342c748afc8875ff023a3dfde502b550fea";
+        $[0] = "6dc91ebcd9783801c2e441667e643d0f9db47769c5d4890414c35bd2bfebf66a";
     }
     const { children } = t0;
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"])();
@@ -1111,136 +1111,210 @@ function DashboardLayout(t0) {
         t20 = $[38];
     }
     let t21;
-    if ($[39] === Symbol.for("react.memo_cache_sentinel")) {
-        t21 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$layout$2f$dashboardLayout$2f$index$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].singleNavItemHolder_mobileView,
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                xmlns: "http://www.w3.org/2000/svg",
-                fill: "none",
-                viewBox: "0 0 24 24",
-                strokeWidth: 1.5,
-                stroke: "currentColor",
-                className: "size-6",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                    strokeLinecap: "round",
-                    strokeLinejoin: "round",
-                    d: "m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
-                }, void 0, false, {
-                    fileName: "[project]/src/layout/dashboardLayout/index.jsx",
-                    lineNumber: 193,
-                    columnNumber: 197
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/src/layout/dashboardLayout/index.jsx",
-                lineNumber: 193,
-                columnNumber: 66
-            }, this)
-        }, void 0, false, {
-            fileName: "[project]/src/layout/dashboardLayout/index.jsx",
-            lineNumber: 193,
-            columnNumber: 11
-        }, this);
-        $[39] = t21;
+    if ($[39] !== router) {
+        t21 = ({
+            "DashboardLayout[<div>.onClick]": ()=>{
+                router.push("/dashboard");
+            }
+        })["DashboardLayout[<div>.onClick]"];
+        $[39] = router;
+        $[40] = t21;
     } else {
-        t21 = $[39];
+        t21 = $[40];
     }
     let t22;
-    if ($[40] === Symbol.for("react.memo_cache_sentinel")) {
-        t22 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$layout$2f$dashboardLayout$2f$index$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].singleNavItemHolder_mobileView,
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                xmlns: "http://www.w3.org/2000/svg",
-                fill: "none",
-                viewBox: "0 0 24 24",
-                strokeWidth: 1.5,
-                stroke: "currentColor",
-                className: "size-6",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                    strokeLinecap: "round",
-                    strokeLinejoin: "round",
-                    d: "m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
-                }, void 0, false, {
-                    fileName: "[project]/src/layout/dashboardLayout/index.jsx",
-                    lineNumber: 200,
-                    columnNumber: 197
-                }, this)
+    if ($[41] === Symbol.for("react.memo_cache_sentinel")) {
+        t22 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+            xmlns: "http://www.w3.org/2000/svg",
+            fill: "none",
+            viewBox: "0 0 24 24",
+            strokeWidth: 1.5,
+            stroke: "currentColor",
+            className: "size-6",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                strokeLinecap: "round",
+                strokeLinejoin: "round",
+                d: "m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
             }, void 0, false, {
                 fileName: "[project]/src/layout/dashboardLayout/index.jsx",
-                lineNumber: 200,
-                columnNumber: 66
+                lineNumber: 205,
+                columnNumber: 142
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/layout/dashboardLayout/index.jsx",
-            lineNumber: 200,
+            lineNumber: 205,
             columnNumber: 11
         }, this);
-        $[40] = t22;
+        $[41] = t22;
     } else {
-        t22 = $[40];
+        t22 = $[41];
     }
     let t23;
-    if ($[41] === Symbol.for("react.memo_cache_sentinel")) {
+    if ($[42] !== t21) {
         t23 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$layout$2f$dashboardLayout$2f$index$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].mobileNavBar,
-            children: [
-                t21,
-                t22,
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$layout$2f$dashboardLayout$2f$index$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].singleNavItemHolder_mobileView,
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                        xmlns: "http://www.w3.org/2000/svg",
-                        fill: "none",
-                        viewBox: "0 0 24 24",
-                        strokeWidth: 1.5,
-                        stroke: "currentColor",
-                        className: "size-6",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                            strokeLinecap: "round",
-                            strokeLinejoin: "round",
-                            d: "M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
-                        }, void 0, false, {
-                            fileName: "[project]/src/layout/dashboardLayout/index.jsx",
-                            lineNumber: 207,
-                            columnNumber: 244
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/src/layout/dashboardLayout/index.jsx",
-                        lineNumber: 207,
-                        columnNumber: 113
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/src/layout/dashboardLayout/index.jsx",
-                    lineNumber: 207,
-                    columnNumber: 58
-                }, this)
-            ]
-        }, void 0, true, {
+            onClick: t21,
+            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$layout$2f$dashboardLayout$2f$index$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].singleNavItemHolder_mobileView,
+            children: t22
+        }, void 0, false, {
             fileName: "[project]/src/layout/dashboardLayout/index.jsx",
-            lineNumber: 207,
+            lineNumber: 212,
             columnNumber: 11
         }, this);
-        $[41] = t23;
+        $[42] = t21;
+        $[43] = t23;
     } else {
-        t23 = $[41];
+        t23 = $[43];
     }
     let t24;
-    if ($[42] !== t20) {
-        t24 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    if ($[44] !== router) {
+        t24 = ({
+            "DashboardLayout[<div>.onClick]": ()=>{
+                router.push("/discover");
+            }
+        })["DashboardLayout[<div>.onClick]"];
+        $[44] = router;
+        $[45] = t24;
+    } else {
+        t24 = $[45];
+    }
+    let t25;
+    if ($[46] === Symbol.for("react.memo_cache_sentinel")) {
+        t25 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+            xmlns: "http://www.w3.org/2000/svg",
+            fill: "none",
+            viewBox: "0 0 24 24",
+            strokeWidth: 1.5,
+            stroke: "currentColor",
+            className: "size-6",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                strokeLinecap: "round",
+                strokeLinejoin: "round",
+                d: "m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+            }, void 0, false, {
+                fileName: "[project]/src/layout/dashboardLayout/index.jsx",
+                lineNumber: 232,
+                columnNumber: 142
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/layout/dashboardLayout/index.jsx",
+            lineNumber: 232,
+            columnNumber: 11
+        }, this);
+        $[46] = t25;
+    } else {
+        t25 = $[46];
+    }
+    let t26;
+    if ($[47] !== t24) {
+        t26 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            onClick: t24,
+            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$layout$2f$dashboardLayout$2f$index$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].singleNavItemHolder_mobileView,
+            children: t25
+        }, void 0, false, {
+            fileName: "[project]/src/layout/dashboardLayout/index.jsx",
+            lineNumber: 239,
+            columnNumber: 11
+        }, this);
+        $[47] = t24;
+        $[48] = t26;
+    } else {
+        t26 = $[48];
+    }
+    let t27;
+    if ($[49] !== router) {
+        t27 = ({
+            "DashboardLayout[<div>.onClick]": ()=>{
+                router.push("/my_connections");
+            }
+        })["DashboardLayout[<div>.onClick]"];
+        $[49] = router;
+        $[50] = t27;
+    } else {
+        t27 = $[50];
+    }
+    let t28;
+    if ($[51] === Symbol.for("react.memo_cache_sentinel")) {
+        t28 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+            xmlns: "http://www.w3.org/2000/svg",
+            fill: "none",
+            viewBox: "0 0 24 24",
+            strokeWidth: 1.5,
+            stroke: "currentColor",
+            className: "size-6",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                strokeLinecap: "round",
+                strokeLinejoin: "round",
+                d: "M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
+            }, void 0, false, {
+                fileName: "[project]/src/layout/dashboardLayout/index.jsx",
+                lineNumber: 259,
+                columnNumber: 142
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/layout/dashboardLayout/index.jsx",
+            lineNumber: 259,
+            columnNumber: 11
+        }, this);
+        $[51] = t28;
+    } else {
+        t28 = $[51];
+    }
+    let t29;
+    if ($[52] !== t27) {
+        t29 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            onClick: t27,
+            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$layout$2f$dashboardLayout$2f$index$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].singleNavItemHolder_mobileView,
+            children: t28
+        }, void 0, false, {
+            fileName: "[project]/src/layout/dashboardLayout/index.jsx",
+            lineNumber: 266,
+            columnNumber: 11
+        }, this);
+        $[52] = t27;
+        $[53] = t29;
+    } else {
+        t29 = $[53];
+    }
+    let t30;
+    if ($[54] !== t23 || $[55] !== t26 || $[56] !== t29) {
+        t30 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$layout$2f$dashboardLayout$2f$index$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].mobileNavBar,
             children: [
-                t20,
-                t23
+                t23,
+                t26,
+                t29
             ]
         }, void 0, true, {
             fileName: "[project]/src/layout/dashboardLayout/index.jsx",
-            lineNumber: 214,
+            lineNumber: 274,
             columnNumber: 11
         }, this);
-        $[42] = t20;
-        $[43] = t24;
+        $[54] = t23;
+        $[55] = t26;
+        $[56] = t29;
+        $[57] = t30;
     } else {
-        t24 = $[43];
+        t30 = $[57];
     }
-    return t24;
+    let t31;
+    if ($[58] !== t20 || $[59] !== t30) {
+        t31 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            children: [
+                t20,
+                t30
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/layout/dashboardLayout/index.jsx",
+            lineNumber: 284,
+            columnNumber: 11
+        }, this);
+        $[58] = t20;
+        $[59] = t30;
+        $[60] = t31;
+    } else {
+        t31 = $[60];
+    }
+    return t31;
 }
 _s(DashboardLayout, "pZw6jhP2KYMk/wVqWB2j2fOqv4g=", false, function() {
     return [
@@ -1257,12 +1331,12 @@ function _DashboardLayoutAnonymous2(profile_0) {
             children: profile_0?.userId?.name || "Unknown User"
         }, void 0, false, {
             fileName: "[project]/src/layout/dashboardLayout/index.jsx",
-            lineNumber: 223,
+            lineNumber: 294,
             columnNumber: 77
         }, this)
     }, profile_0._id, false, {
         fileName: "[project]/src/layout/dashboardLayout/index.jsx",
-        lineNumber: 223,
+        lineNumber: 294,
         columnNumber: 10
     }, this);
 }
@@ -1573,6 +1647,7 @@ __turbopack_context__.v({
   "connectedButton": "index-module__wh4uvW__connectedButton",
   "container": "index-module__wh4uvW__container",
   "profileContainer_details": "index-module__wh4uvW__profileContainer_details",
+  "profileContainer_flex": "index-module__wh4uvW__profileContainer_flex",
   "workHistoryCard": "index-module__wh4uvW__workHistoryCard",
   "workHistoryContainer": "index-module__wh4uvW__workHistoryContainer",
 });
@@ -1722,12 +1797,12 @@ var _s = __turbopack_context__.k.signature();
 var __N_SSP = true;
 function ViewProfilePage(t0) {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(72);
-    if ($[0] !== "96411d2e32204da8d490234b05bcd9cfa3ccb6332384facc159a984fc14f25af") {
-        for(let $i = 0; $i < 72; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(71);
+    if ($[0] !== "6fb5f4b8b24aa162f926bc88bc2a21f37cf3f669753215bac304ca222013f7ee") {
+        for(let $i = 0; $i < 71; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "96411d2e32204da8d490234b05bcd9cfa3ccb6332384facc159a984fc14f25af";
+        $[0] = "6fb5f4b8b24aa162f926bc88bc2a21f37cf3f669753215bac304ca222013f7ee";
     }
     const { userProfile } = t0;
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useSearchParams"])();
@@ -1883,16 +1958,11 @@ function ViewProfilePage(t0) {
     }
     let t11;
     let t12;
-    let t13;
     if ($[21] === Symbol.for("react.memo_cache_sentinel")) {
         t11 = {
-            display: "flex",
-            gap: "0.8rem"
-        };
-        t12 = {
             flex: "0.8rem"
         };
-        t13 = {
+        t12 = {
             display: "flex",
             width: "fit-content",
             gap: "1.2rem",
@@ -1900,91 +1970,89 @@ function ViewProfilePage(t0) {
         };
         $[21] = t11;
         $[22] = t12;
-        $[23] = t13;
     } else {
         t11 = $[21];
         t12 = $[22];
-        t13 = $[23];
     }
-    let t14;
-    if ($[24] !== userProfile.userId.name) {
-        t14 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+    let t13;
+    if ($[23] !== userProfile.userId.name) {
+        t13 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
             children: userProfile.userId.name
         }, void 0, false, {
             fileName: "[project]/src/pages/view_profile/[username].jsx",
-            lineNumber: 181,
+            lineNumber: 174,
             columnNumber: 11
         }, this);
-        $[24] = userProfile.userId.name;
+        $[23] = userProfile.userId.name;
+        $[24] = t13;
+    } else {
+        t13 = $[24];
+    }
+    let t14;
+    if ($[25] === Symbol.for("react.memo_cache_sentinel")) {
+        t14 = {
+            color: "grey"
+        };
         $[25] = t14;
     } else {
         t14 = $[25];
     }
     let t15;
-    if ($[26] === Symbol.for("react.memo_cache_sentinel")) {
-        t15 = {
-            color: "grey"
-        };
-        $[26] = t15;
-    } else {
-        t15 = $[26];
-    }
-    let t16;
-    if ($[27] !== userProfile.userId.username) {
-        t16 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-            style: t15,
+    if ($[26] !== userProfile.userId.username) {
+        t15 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+            style: t14,
             children: [
                 "@",
                 userProfile.userId.username
             ]
         }, void 0, true, {
             fileName: "[project]/src/pages/view_profile/[username].jsx",
-            lineNumber: 198,
+            lineNumber: 191,
             columnNumber: 11
         }, this);
-        $[27] = userProfile.userId.username;
-        $[28] = t16;
+        $[26] = userProfile.userId.username;
+        $[27] = t15;
     } else {
-        t16 = $[28];
+        t15 = $[27];
     }
-    let t17;
-    if ($[29] !== t14 || $[30] !== t16) {
-        t17 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            style: t13,
+    let t16;
+    if ($[28] !== t13 || $[29] !== t15) {
+        t16 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            style: t12,
             children: [
-                t14,
-                t16
+                t13,
+                t15
             ]
         }, void 0, true, {
             fileName: "[project]/src/pages/view_profile/[username].jsx",
-            lineNumber: 206,
+            lineNumber: 199,
             columnNumber: 11
         }, this);
-        $[29] = t14;
+        $[28] = t13;
+        $[29] = t15;
         $[30] = t16;
+    } else {
+        t16 = $[30];
+    }
+    let t17;
+    if ($[31] === Symbol.for("react.memo_cache_sentinel")) {
+        t17 = {
+            display: "flex",
+            alignItens: "center",
+            gap: "1.2em"
+        };
         $[31] = t17;
     } else {
         t17 = $[31];
     }
     let t18;
-    if ($[32] === Symbol.for("react.memo_cache_sentinel")) {
-        t18 = {
-            display: "flex",
-            alignItens: "center",
-            gap: "1.2em"
-        };
-        $[32] = t18;
-    } else {
-        t18 = $[32];
-    }
-    let t19;
-    if ($[33] !== dispatch || $[34] !== isConnectionNull || $[35] !== isCurrentUserInConnection || $[36] !== userProfile.userId._id) {
-        t19 = isCurrentUserInConnection ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+    if ($[32] !== dispatch || $[33] !== isConnectionNull || $[34] !== isCurrentUserInConnection || $[35] !== userProfile.userId._id) {
+        t18 = isCurrentUserInConnection ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$view_profile$2f$index$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].connectedButton,
             children: isConnectionNull ? "pending" : "Connected"
         }, void 0, false, {
             fileName: "[project]/src/pages/view_profile/[username].jsx",
-            lineNumber: 226,
+            lineNumber: 219,
             columnNumber: 39
         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
             onClick: {
@@ -1999,49 +2067,49 @@ function ViewProfilePage(t0) {
             children: "Connect"
         }, void 0, false, {
             fileName: "[project]/src/pages/view_profile/[username].jsx",
-            lineNumber: 226,
+            lineNumber: 219,
             columnNumber: 138
         }, this);
-        $[33] = dispatch;
-        $[34] = isConnectionNull;
-        $[35] = isCurrentUserInConnection;
-        $[36] = userProfile.userId._id;
-        $[37] = t19;
+        $[32] = dispatch;
+        $[33] = isConnectionNull;
+        $[34] = isCurrentUserInConnection;
+        $[35] = userProfile.userId._id;
+        $[36] = t18;
     } else {
-        t19 = $[37];
+        t18 = $[36];
     }
-    let t20;
-    if ($[38] !== userProfile.userId._id) {
-        t20 = ({
+    let t19;
+    if ($[37] !== userProfile.userId._id) {
+        t19 = ({
             "ViewProfilePage[<div>.onClick]": async ()=>{
                 const response = await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$config$2f$index$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__["clientServer"].get(`/user/download_resume?id=${userProfile.userId._id}`);
                 window.open(`${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$config$2f$index$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__["BASE_URL"]}/${response.data.message}`, "_blank");
             }
         })["ViewProfilePage[<div>.onClick]"];
-        $[38] = userProfile.userId._id;
-        $[39] = t20;
+        $[37] = userProfile.userId._id;
+        $[38] = t19;
     } else {
-        t20 = $[39];
+        t19 = $[38];
     }
+    let t20;
     let t21;
-    let t22;
-    if ($[40] === Symbol.for("react.memo_cache_sentinel")) {
-        t21 = {
+    if ($[39] === Symbol.for("react.memo_cache_sentinel")) {
+        t20 = {
             cursor: "pointer"
         };
-        t22 = {
+        t21 = {
             width: "1.2rem"
         };
+        $[39] = t20;
         $[40] = t21;
-        $[41] = t22;
     } else {
+        t20 = $[39];
         t21 = $[40];
-        t22 = $[41];
     }
-    let t23;
-    if ($[42] === Symbol.for("react.memo_cache_sentinel")) {
-        t23 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-            style: t22,
+    let t22;
+    if ($[41] === Symbol.for("react.memo_cache_sentinel")) {
+        t22 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+            style: t21,
             xmlns: "http://www.w3.org/2000/svg",
             fill: "none",
             viewBox: "0 0 24 24",
@@ -2054,245 +2122,245 @@ function ViewProfilePage(t0) {
                 d: "M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
             }, void 0, false, {
                 fileName: "[project]/src/pages/view_profile/[username].jsx",
-                lineNumber: 272,
+                lineNumber: 265,
                 columnNumber: 154
             }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/pages/view_profile/[username].jsx",
+            lineNumber: 265,
+            columnNumber: 11
+        }, this);
+        $[41] = t22;
+    } else {
+        t22 = $[41];
+    }
+    let t23;
+    if ($[42] !== t19) {
+        t23 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            onClick: t19,
+            style: t20,
+            children: t22
         }, void 0, false, {
             fileName: "[project]/src/pages/view_profile/[username].jsx",
             lineNumber: 272,
             columnNumber: 11
         }, this);
-        $[42] = t23;
+        $[42] = t19;
+        $[43] = t23;
     } else {
-        t23 = $[42];
+        t23 = $[43];
     }
     let t24;
-    if ($[43] !== t20) {
+    if ($[44] !== t18 || $[45] !== t23) {
         t24 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            onClick: t20,
-            style: t21,
-            children: t23
-        }, void 0, false, {
-            fileName: "[project]/src/pages/view_profile/[username].jsx",
-            lineNumber: 279,
-            columnNumber: 11
-        }, this);
-        $[43] = t20;
-        $[44] = t24;
-    } else {
-        t24 = $[44];
-    }
-    let t25;
-    if ($[45] !== t19 || $[46] !== t24) {
-        t25 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            style: t18,
+            style: t17,
             children: [
-                t19,
-                t24
+                t18,
+                t23
             ]
         }, void 0, true, {
             fileName: "[project]/src/pages/view_profile/[username].jsx",
-            lineNumber: 287,
+            lineNumber: 280,
             columnNumber: 11
         }, this);
-        $[45] = t19;
+        $[44] = t18;
+        $[45] = t23;
         $[46] = t24;
-        $[47] = t25;
     } else {
-        t25 = $[47];
+        t24 = $[46];
     }
-    let t26;
-    if ($[48] !== userProfile.bio) {
-        t26 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t25;
+    if ($[47] !== userProfile.bio) {
+        t25 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 children: userProfile.bio
             }, void 0, false, {
                 fileName: "[project]/src/pages/view_profile/[username].jsx",
-                lineNumber: 296,
+                lineNumber: 289,
                 columnNumber: 16
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/pages/view_profile/[username].jsx",
-            lineNumber: 296,
+            lineNumber: 289,
             columnNumber: 11
         }, this);
-        $[48] = userProfile.bio;
-        $[49] = t26;
+        $[47] = userProfile.bio;
+        $[48] = t25;
     } else {
-        t26 = $[49];
+        t25 = $[48];
     }
-    let t27;
-    if ($[50] !== t17 || $[51] !== t25 || $[52] !== t26) {
-        t27 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            style: t12,
+    let t26;
+    if ($[49] !== t16 || $[50] !== t24 || $[51] !== t25) {
+        t26 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            style: t11,
             children: [
-                t17,
-                t25,
-                t26
+                t16,
+                t24,
+                t25
             ]
         }, void 0, true, {
             fileName: "[project]/src/pages/view_profile/[username].jsx",
-            lineNumber: 304,
+            lineNumber: 297,
             columnNumber: 11
         }, this);
-        $[50] = t17;
+        $[49] = t16;
+        $[50] = t24;
         $[51] = t25;
         $[52] = t26;
-        $[53] = t27;
     } else {
-        t27 = $[53];
+        t26 = $[52];
     }
+    let t27;
     let t28;
-    let t29;
-    if ($[54] === Symbol.for("react.memo_cache_sentinel")) {
-        t28 = {
+    if ($[53] === Symbol.for("react.memo_cache_sentinel")) {
+        t27 = {
             flex: "0.2rem"
         };
-        t29 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+        t28 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
             children: "Recent activity"
         }, void 0, false, {
             fileName: "[project]/src/pages/view_profile/[username].jsx",
-            lineNumber: 318,
+            lineNumber: 311,
             columnNumber: 11
         }, this);
+        $[53] = t27;
         $[54] = t28;
-        $[55] = t29;
     } else {
+        t27 = $[53];
         t28 = $[54];
-        t29 = $[55];
+    }
+    let t29;
+    if ($[55] !== userPosts) {
+        t29 = userPosts.map(_ViewProfilePageUserPostsMap);
+        $[55] = userPosts;
+        $[56] = t29;
+    } else {
+        t29 = $[56];
     }
     let t30;
-    if ($[56] !== userPosts) {
-        t30 = userPosts.map(_ViewProfilePageUserPostsMap);
-        $[56] = userPosts;
-        $[57] = t30;
-    } else {
-        t30 = $[57];
-    }
-    let t31;
-    if ($[58] !== t30) {
-        t31 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            style: t28,
+    if ($[57] !== t29) {
+        t30 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            style: t27,
             children: [
-                t29,
-                t30
+                t28,
+                t29
             ]
         }, void 0, true, {
             fileName: "[project]/src/pages/view_profile/[username].jsx",
-            lineNumber: 335,
+            lineNumber: 328,
             columnNumber: 11
         }, this);
+        $[57] = t29;
         $[58] = t30;
-        $[59] = t31;
     } else {
-        t31 = $[59];
+        t30 = $[58];
     }
-    let t32;
-    if ($[60] !== t27 || $[61] !== t31) {
-        t32 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t31;
+    if ($[59] !== t26 || $[60] !== t30) {
+        t31 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$view_profile$2f$index$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].profileContainer_details,
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                style: t11,
+                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$view_profile$2f$index$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].profileContainer_flex,
                 children: [
-                    t27,
-                    t31
+                    t26,
+                    t30
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/pages/view_profile/[username].jsx",
-                lineNumber: 343,
+                lineNumber: 336,
                 columnNumber: 60
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/pages/view_profile/[username].jsx",
-            lineNumber: 343,
+            lineNumber: 336,
             columnNumber: 11
         }, this);
-        $[60] = t27;
+        $[59] = t26;
+        $[60] = t30;
         $[61] = t31;
+    } else {
+        t31 = $[61];
+    }
+    let t32;
+    if ($[62] === Symbol.for("react.memo_cache_sentinel")) {
+        t32 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+            children: "Work History"
+        }, void 0, false, {
+            fileName: "[project]/src/pages/view_profile/[username].jsx",
+            lineNumber: 345,
+            columnNumber: 11
+        }, this);
         $[62] = t32;
     } else {
         t32 = $[62];
     }
     let t33;
-    if ($[63] === Symbol.for("react.memo_cache_sentinel")) {
-        t33 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-            children: "Work History"
-        }, void 0, false, {
-            fileName: "[project]/src/pages/view_profile/[username].jsx",
-            lineNumber: 352,
-            columnNumber: 11
-        }, this);
-        $[63] = t33;
+    if ($[63] !== userProfile.pastWork) {
+        t33 = userProfile.pastWork.map(_ViewProfilePageUserProfilePastWorkMap);
+        $[63] = userProfile.pastWork;
+        $[64] = t33;
     } else {
-        t33 = $[63];
+        t33 = $[64];
     }
     let t34;
-    if ($[64] !== userProfile.pastWork) {
-        t34 = userProfile.pastWork.map(_ViewProfilePageUserProfilePastWorkMap);
-        $[64] = userProfile.pastWork;
-        $[65] = t34;
-    } else {
-        t34 = $[65];
-    }
-    let t35;
-    if ($[66] !== t34) {
-        t35 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    if ($[65] !== t33) {
+        t34 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "workHistory",
             children: [
-                t33,
+                t32,
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$view_profile$2f$index$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].workHistoryContainer,
-                    children: t34
+                    children: t33
                 }, void 0, false, {
                     fileName: "[project]/src/pages/view_profile/[username].jsx",
-                    lineNumber: 367,
+                    lineNumber: 360,
                     columnNumber: 45
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/pages/view_profile/[username].jsx",
-            lineNumber: 367,
+            lineNumber: 360,
             columnNumber: 11
         }, this);
+        $[65] = t33;
         $[66] = t34;
-        $[67] = t35;
     } else {
-        t35 = $[67];
+        t34 = $[66];
     }
-    let t36;
-    if ($[68] !== t10 || $[69] !== t32 || $[70] !== t35) {
-        t36 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$layout$2f$userLayout$2f$index$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+    let t35;
+    if ($[67] !== t10 || $[68] !== t31 || $[69] !== t34) {
+        t35 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$layout$2f$userLayout$2f$index$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$layout$2f$dashboardLayout$2f$index$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$view_profile$2f$index$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].container,
                     children: [
                         t10,
-                        t32,
-                        t35
+                        t31,
+                        t34
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/view_profile/[username].jsx",
-                    lineNumber: 375,
+                    lineNumber: 368,
                     columnNumber: 40
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/view_profile/[username].jsx",
-                lineNumber: 375,
+                lineNumber: 368,
                 columnNumber: 23
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/pages/view_profile/[username].jsx",
-            lineNumber: 375,
+            lineNumber: 368,
             columnNumber: 11
         }, this);
-        $[68] = t10;
-        $[69] = t32;
+        $[67] = t10;
+        $[68] = t31;
+        $[69] = t34;
         $[70] = t35;
-        $[71] = t36;
     } else {
-        t36 = $[71];
+        t35 = $[70];
     }
-    return t36;
+    return t35;
 }
 _s(ViewProfilePage, "bH4TpX9Jt0cSxsKWk6vP68YZt8E=", false, function() {
     return [
@@ -2322,20 +2390,20 @@ function _ViewProfilePageUserProfilePastWorkMap(work, index) {
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/pages/view_profile/[username].jsx",
-                lineNumber: 386,
+                lineNumber: 379,
                 columnNumber: 62
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 children: work.years
             }, void 0, false, {
                 fileName: "[project]/src/pages/view_profile/[username].jsx",
-                lineNumber: 391,
+                lineNumber: 384,
                 columnNumber: 44
             }, this)
         ]
     }, index, true, {
         fileName: "[project]/src/pages/view_profile/[username].jsx",
-        lineNumber: 386,
+        lineNumber: 379,
         columnNumber: 10
     }, this);
 }
@@ -2352,7 +2420,7 @@ function _ViewProfilePageUserPostsMap(post_1) {
                         alt: ""
                     }, void 0, false, {
                         fileName: "[project]/src/pages/view_profile/[username].jsx",
-                        lineNumber: 394,
+                        lineNumber: 387,
                         columnNumber: 158
                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         style: {
@@ -2361,30 +2429,30 @@ function _ViewProfilePageUserPostsMap(post_1) {
                         }
                     }, void 0, false, {
                         fileName: "[project]/src/pages/view_profile/[username].jsx",
-                        lineNumber: 394,
+                        lineNumber: 387,
                         columnNumber: 211
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/pages/view_profile/[username].jsx",
-                    lineNumber: 394,
+                    lineNumber: 387,
                     columnNumber: 89
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     children: post_1.body
                 }, void 0, false, {
                     fileName: "[project]/src/pages/view_profile/[username].jsx",
-                    lineNumber: 397,
+                    lineNumber: 390,
                     columnNumber: 21
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/pages/view_profile/[username].jsx",
-            lineNumber: 394,
+            lineNumber: 387,
             columnNumber: 60
         }, this)
     }, post_1._id, false, {
         fileName: "[project]/src/pages/view_profile/[username].jsx",
-        lineNumber: 394,
+        lineNumber: 387,
         columnNumber: 10
     }, this);
 }

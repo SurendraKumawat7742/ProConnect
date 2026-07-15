@@ -1,32 +1,151 @@
-[00:00:07.771] Server  ERROR   (node:20304) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+[00:00:22.869] Server  ERROR   (node:4324) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
 (Use `node --trace-warnings ...` to show where the warning was created)
-[00:00:07.779] Server  LOG     ✓ Ready in 6.4s
-[00:02:07.375] Server  LOG     ○ Compiling / ...
-[00:17:24.075] Browser LOG     auth []
-[00:17:24.076] Browser LOG     conn []
-[00:17:24.076] Browser LOG     [2;38;2;124;124;124m%s[0m auth []
-[00:17:24.076] Browser LOG     [2;38;2;124;124;124m%s[0m conn []
-[00:17:24.858] Browser LOG     auth []
-[00:17:24.858] Browser LOG     conn []
-[00:17:26.700] Browser LOG     auth []
-[00:17:26.700] Browser LOG     conn []
-[00:17:35.918] Browser LOG     Login..
-[00:17:50.304] Browser LOG     Registering..
-[00:18:09.326] Browser LOG     Login..
-[00:18:30.318] Browser LOG     auth []
-[00:18:30.318] Browser LOG     conn []
-[00:18:30.318] Browser LOG     [2;38;2;124;124;124m%s[0m auth []
-[00:18:30.318] Browser LOG     [2;38;2;124;124;124m%s[0m conn []
-[00:18:31.219] Browser LOG     auth []
-[00:18:31.219] Browser LOG     conn []
-[00:18:32.224] Browser LOG     auth []
-[00:18:32.224] Browser LOG     conn []
-[00:18:59.391] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'username')
-[00:21:41.946] Browser LOG     auth []
-[00:21:41.946] Browser LOG     conn []
-[00:21:41.946] Browser LOG     [2;38;2;124;124;124m%s[0m auth []
-[00:21:41.946] Browser LOG     [2;38;2;124;124;124m%s[0m conn []
-[00:21:44.909] Browser LOG     auth []
-[00:21:44.909] Browser LOG     conn []
-[00:21:46.159] Browser LOG     auth []
-[00:21:46.159] Browser LOG     conn []
+[00:00:22.890] Server  LOG     ✓ Ready in 19.2s
+[00:00:25.977] Server  LOG     ○ Compiling / ...
+[00:01:32.207] Browser LOG     Registering..
+[00:03:28.126] Browser LOG     Login..
+[00:03:43.929] Browser WARN    SerializableStateInvariantMiddleware took 36ms, which is more than the warning threshold of 32ms. 
+If your state or actions are very large, you may want to disable the middleware as it might cause too much of a slowdown in development mode. See https://redux-toolkit.js.org/api/getDefaultMiddleware for instructions.
+It is disabled in production builds, so you don't need to worry about that.
+[00:03:48.479] Browser LOG     auth []
+[00:03:48.479] Browser LOG     conn []
+[00:03:48.479] Browser LOG     auth []
+[00:03:48.479] Browser LOG     conn []
+[00:03:50.965] Browser LOG     auth []
+[00:03:50.965] Browser LOG     conn []
+[00:03:53.419] Browser LOG     auth []
+[00:03:53.419] Browser LOG     conn []
+[00:03:53.419] Browser LOG     auth []
+[00:03:53.419] Browser LOG     conn []
+[00:09:18.321] Server  LOG     ✓ Compiled in 2.6s
+[00:09:18.432] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true pa pa true pa
+[00:09:22.805] Server  LOG     ✓ Compiled in 603ms
+[00:09:23.431] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true placeholder placeholder true placeholder
+[00:09:39.430] Browser LOG     Refreshing page data due to server-side change
+[00:09:39.695] Server  LOG     ✓ Compiled in 1951ms
+[00:09:40.434] Browser ERROR   ./src/pages/profile/index.jsx:108:70
+Parsing ecmascript source code failed
+  106 |
+  107 |                   <div>
+> 108 |                     <textarea value={userProfile.bio} placeholder={} onChange={(e)=>{
+      |                                                                      ^^^^^^^^
+  109 |                       setUserProfile({...userProfile, bio: e.target.value});
+  110 |                     }} 
+  111 |                     rows={Math.max(3, Math.ceil(userProfile.bio.length / 80))}
+
+Expected '</', got 'ident'
+[00:09:40.434] Browser ERROR   ./src/pages/profile/index.jsx
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/src/pages/profile/index.jsx [ssr] (ecmascript)
+
+Caused by:
+- CJS module can't be async.
+
+Debug info:
+- An error occurred while generating the chunk item [project]/src/pages/profile/index.jsx [ssr] (ecmascript)
+- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of EcmascriptChunkItemContent::new failed
+- CJS module can't be async.
+[00:09:41.176] Server  LOG     ✓ Compiled in 570ms
+[00:09:41.430] Browser LOG     Refreshing page data due to server-side change
+[00:09:41.430] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <ProfilePage> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[00:09:53.577] Server  LOG     ✓ Compiled in 800ms
+[00:11:18.575] Browser LOG     Refreshing page data due to server-side change
+[00:11:18.621] Server  LOG     ✓ Compiled in 352ms
+[00:11:19.425] Browser ERROR   ./src/pages/profile/index.jsx:108:68
+Parsing ecmascript source code failed
+  106 |
+  107 |                   <div>
+> 108 |                     <textarea value={userProfile.bio} placeholder={'} onChange={(e)=>{
+      |                                                                    ^^^^^^^^^^^^^^^^^^^
+  109 |                       setUserProfile({...userProfile, bio: e.target.value});
+  110 |                     }} 
+  111 |                     rows={Math.max(3, Math.ceil(userProfile.bio.length / 80))}
+
+Unterminated string constant
+[00:11:19.425] Browser ERROR   ./src/pages/profile/index.jsx
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/src/pages/profile/index.jsx [ssr] (ecmascript)
+
+Caused by:
+- CJS module can't be async.
+
+Debug info:
+- An error occurred while generating the chunk item [project]/src/pages/profile/index.jsx [ssr] (ecmascript)
+- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of EcmascriptChunkItemContent::new failed
+- CJS module can't be async.
+[00:11:20.035] Server  LOG     ✓ Compiled in 776ms
+[00:11:20.428] Browser LOG     Refreshing page data due to server-side change
+[00:11:22.656] Server  LOG     ✓ Compiled in 726ms
+[00:11:42.325] Browser LOG     Login..
+[00:12:07.135] Browser LOG     Login..
+[00:14:57.066] Server  LOG     ✓ Compiled in 239ms
+[00:15:12.427] Browser LOG     Login..
+[00:15:49.048] Server  LOG     ✓ Compiled in 29ms
+[00:16:09.265] Server  LOG     ✓ Compiled in 47ms
+[00:16:14.242] Server  LOG     ✓ Compiled in 25ms
+[00:16:22.418] Server  LOG     View form
+[00:16:22.418] Server  LOG     a
+[00:16:31.801] Server  LOG     {}
+[00:17:03.048] Browser LOG     Login..
+[00:17:20.100] Browser LOG     auth []
+[00:17:20.100] Browser LOG     conn []
+[00:17:20.100] Browser LOG     auth []
+[00:17:20.100] Browser LOG     conn []
+[00:17:27.818] Server  LOG     View form
+[00:17:27.818] Server  LOG     abc
+[00:17:31.454] Server  LOG     {}
+[00:17:48.916] Server  LOG     View form
+[00:17:48.917] Server  LOG     a
+[00:17:51.476] Server  LOG     {}
+[00:17:58.262] Server  LOG     View form
+[00:17:58.263] Server  LOG     b
+[00:18:01.303] Server  LOG     {}
+[00:18:19.880] Browser LOG     Login..
+[00:18:25.255] Browser LOG     auth []
+[00:18:25.255] Browser LOG     conn []
+[00:18:25.255] Browser LOG     auth []
+[00:18:25.256] Browser LOG     conn []
+[00:18:25.990] Browser LOG     auth []
+[00:18:25.990] Browser LOG     conn []
+[00:18:26.200] Browser LOG     auth []
+[00:18:26.200] Browser LOG     conn []
+[00:18:27.424] Browser LOG     auth []
+[00:18:27.424] Browser LOG     conn []
+[00:18:32.914] Server  LOG     View form
+[00:18:32.915] Server  LOG     a
+[00:18:35.609] Server  LOG     {}
+[00:18:41.354] Server  LOG     View form
+[00:18:41.355] Server  LOG     abc
+[00:18:45.233] Server  LOG     {}
+[00:19:06.612] Browser LOG     Login..
+[00:19:13.776] Browser LOG     auth []
+[00:19:13.776] Browser LOG     conn []
+[00:19:13.776] Browser LOG     auth []
+[00:19:13.776] Browser LOG     conn []
+[00:19:15.078] Browser LOG     auth [{"__v":0,"_id":"6a57bd2f404ad43253fa34ec","connectionId":"6a54db09b69769ada5d20453","status_accepted":null,"userId":{"_id":"6a57b9b9404ad43253fa3474","email":"abc@gmail.com","name":"surendra","profilePic":"default.jpg","username":"abc"}},{"__v":0,"_id":"6a57bd7c404ad43253fa3535","connectionId":"6a54db09b69769ada5d20453","status_accepted":null,"userId":{"_id":"6a54db09b69769ada5d20453","email":"a@gmail.com","name":"a","profilePic":"default.jpg","username":"a"}}]
+[00:19:15.078] Browser LOG     conn []
+[00:19:15.078] Browser LOG     [{"__v":0,"_id":"6a57bd2f404ad43253fa34ec","connectionId":"6a54db09b69769ada5d20453","status_accepted":null,"userId":{"_id":"6a57b9b9404ad43253fa3474","email":"abc@gmail.com","name":"surendra","profilePic":"default.jpg","username":"abc"}},{"__v":0,"_id":"6a57bd7c404ad43253fa3535","connectionId":"6a54db09b69769ada5d20453","status_accepted":null,"userId":{"_id":"6a54db09b69769ada5d20453","email":"a@gmail.com","name":"a","profilePic":"default.jpg","username":"a"}}]
+[00:19:16.473] Browser LOG     auth [{"__v":0,"_id":"6a57bd2f404ad43253fa34ec","connectionId":"6a54db09b69769ada5d20453","status_accepted":null,"userId":{"_id":"6a57b9b9404ad43253fa3474","email":"abc@gmail.com","name":"surendra","profilePic":"default.jpg","username":"abc"}},{"__v":0,"_id":"6a57bd7c404ad43253fa3535","connectionId":"6a54db09b69769ada5d20453","status_accepted":null,"userId":{"_id":"6a54db09b69769ada5d20453","email":"a@gmail.com","name":"a","profilePic":"default.jpg","username":"a"}}]
+[00:19:16.473] Browser LOG     conn []
+[00:19:16.473] Browser LOG     [{"__v":0,"_id":"6a57bd2f404ad43253fa34ec","connectionId":"6a54db09b69769ada5d20453","status_accepted":null,"userId":{"_id":"6a57b9b9404ad43253fa3474","email":"abc@gmail.com","name":"surendra","profilePic":"default.jpg","username":"abc"}},{"__v":0,"_id":"6a57bd7c404ad43253fa3535","connectionId":"6a54db09b69769ada5d20453","status_accepted":null,"userId":{"_id":"6a54db09b69769ada5d20453","email":"a@gmail.com","name":"a","profilePic":"default.jpg","username":"a"}}]
+[00:19:24.570] Browser LOG     auth [{"__v":0,"_id":"6a57bd2f404ad43253fa34ec","connectionId":"6a54db09b69769ada5d20453","status_accepted":true,"userId":{"_id":"6a57b9b9404ad43253fa3474","email":"abc@gmail.com","name":"surendra","profilePic":"default.jpg","username":"abc"}},{"__v":0,"_id":"6a57bd7c404ad43253fa3535","connectionId":"6a54db09b69769ada5d20453","status_accepted":null,"userId":{"_id":"6a54db09b69769ada5d20453","email":"a@gmail.com","name":"a","profilePic":"default.jpg","username":"a"}}]
+[00:19:24.570] Browser LOG     conn []
+[00:19:24.570] Browser LOG     [{"__v":0,"_id":"6a57bd2f404ad43253fa34ec","connectionId":"6a54db09b69769ada5d20453","status_accepted":true,"userId":{"_id":"6a57b9b9404ad43253fa3474","email":"abc@gmail.com","name":"surendra","profilePic":"default.jpg","username":"abc"}},{"__v":0,"_id":"6a57bd7c404ad43253fa3535","connectionId":"6a54db09b69769ada5d20453","status_accepted":null,"userId":{"_id":"6a54db09b69769ada5d20453","email":"a@gmail.com","name":"a","profilePic":"default.jpg","username":"a"}}]
+[00:19:24.721] Browser LOG     auth []
+[00:19:24.721] Browser LOG     conn []
+[00:19:26.111] Browser LOG     auth []
+[00:19:26.111] Browser LOG     conn []
+[00:19:26.356] Browser LOG     auth [{"__v":0,"_id":"6a57bd2f404ad43253fa34ec","connectionId":"6a54db09b69769ada5d20453","status_accepted":true,"userId":{"_id":"6a57b9b9404ad43253fa3474","email":"abc@gmail.com","name":"surendra","profilePic":"default.jpg","username":"abc"}},{"__v":0,"_id":"6a57bd7c404ad43253fa3535","connectionId":"6a54db09b69769ada5d20453","status_accepted":true,"userId":{"_id":"6a54db09b69769ada5d20453","email":"a@gmail.com","name":"a","profilePic":"default.jpg","username":"a"}}]
+[00:19:26.356] Browser LOG     conn []
+[00:19:26.356] Browser LOG     [{"__v":0,"_id":"6a57bd2f404ad43253fa34ec","connectionId":"6a54db09b69769ada5d20453","status_accepted":true,"userId":{"_id":"6a57b9b9404ad43253fa3474","email":"abc@gmail.com","name":"surendra","profilePic":"default.jpg","username":"abc"}},{"__v":0,"_id":"6a57bd7c404ad43253fa3535","connectionId":"6a54db09b69769ada5d20453","status_accepted":true,"userId":{"_id":"6a54db09b69769ada5d20453","email":"a@gmail.com","name":"a","profilePic":"default.jpg","username":"a"}}]

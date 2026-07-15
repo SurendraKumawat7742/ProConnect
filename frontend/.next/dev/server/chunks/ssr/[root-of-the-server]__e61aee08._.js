@@ -256,6 +256,9 @@ function DashboardLayout({ children }) {
                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$layout$2f$dashboardLayout$2f$index$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].mobileNavBar,
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                        onClick: ()=>{
+                            router.push("/dashboard");
+                        },
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$layout$2f$dashboardLayout$2f$index$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].singleNavItemHolder_mobileView,
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
                             xmlns: "http://www.w3.org/2000/svg",
@@ -270,12 +273,12 @@ function DashboardLayout({ children }) {
                                 d: "m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
                             }, void 0, false, {
                                 fileName: "[project]/src/layout/dashboardLayout/index.jsx",
-                                lineNumber: 127,
+                                lineNumber: 131,
                                 columnNumber: 17
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/layout/dashboardLayout/index.jsx",
-                            lineNumber: 119,
+                            lineNumber: 123,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
@@ -284,6 +287,9 @@ function DashboardLayout({ children }) {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                        onClick: ()=>{
+                            router.push("/discover");
+                        },
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$layout$2f$dashboardLayout$2f$index$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].singleNavItemHolder_mobileView,
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
                             xmlns: "http://www.w3.org/2000/svg",
@@ -298,20 +304,23 @@ function DashboardLayout({ children }) {
                                 d: "m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
                             }, void 0, false, {
                                 fileName: "[project]/src/layout/dashboardLayout/index.jsx",
-                                lineNumber: 143,
+                                lineNumber: 151,
                                 columnNumber: 17
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/layout/dashboardLayout/index.jsx",
-                            lineNumber: 135,
+                            lineNumber: 143,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/layout/dashboardLayout/index.jsx",
-                        lineNumber: 134,
+                        lineNumber: 138,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                        onClick: ()=>{
+                            router.push("/my_connections");
+                        },
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$layout$2f$dashboardLayout$2f$index$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].singleNavItemHolder_mobileView,
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
                             xmlns: "http://www.w3.org/2000/svg",
@@ -326,17 +335,17 @@ function DashboardLayout({ children }) {
                                 d: "M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
                             }, void 0, false, {
                                 fileName: "[project]/src/layout/dashboardLayout/index.jsx",
-                                lineNumber: 159,
+                                lineNumber: 171,
                                 columnNumber: 17
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/layout/dashboardLayout/index.jsx",
-                            lineNumber: 151,
+                            lineNumber: 163,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/layout/dashboardLayout/index.jsx",
-                        lineNumber: 150,
+                        lineNumber: 158,
                         columnNumber: 9
                     }, this)
                 ]
@@ -570,6 +579,7 @@ __turbopack_context__.v({
   "connectedButton": "index-module__wh4uvW__connectedButton",
   "container": "index-module__wh4uvW__container",
   "profileContainer_details": "index-module__wh4uvW__profileContainer_details",
+  "profileContainer_flex": "index-module__wh4uvW__profileContainer_flex",
   "workHistoryCard": "index-module__wh4uvW__workHistoryCard",
   "workHistoryContainer": "index-module__wh4uvW__workHistoryContainer",
 });
@@ -687,10 +697,7 @@ function ViewProfilePage({ userProfile }) {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$view_profile$2f$index$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].profileContainer_details,
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            style: {
-                                display: "flex",
-                                gap: "0.8rem"
-                            },
+                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$view_profile$2f$index$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].profileContainer_flex,
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                     style: {

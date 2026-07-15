@@ -48,6 +48,23 @@
   padding-inline: .9rem;
 }
 
+.index-module__FY7iTa__mobileNavBar {
+  background: #fff;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 6vh;
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.index-module__FY7iTa__mobileNavBar svg {
+  width: 2rem;
+  height: 2rem;
+}
+
 @media only screen and (max-width: 600px) {
   .index-module__FY7iTa__homeContainer_extraContainer {
     display: none;
@@ -64,23 +81,10 @@
   .index-module__FY7iTa__mobileNavBar {
     display: flex;
   }
-}
 
-.index-module__FY7iTa__mobileNavBar {
-  background: #fff;
-  justify-content: space-around;
-  align-items: center;
-  width: 100vw;
-  height: 6vh;
-  display: none;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-
-.index-module__FY7iTa__mobileNavBar svg {
-  width: 2rem;
-  height: 2rem;
+  .index-module__FY7iTa__homeContainer_feedContainer {
+    padding-bottom: 8vh;
+  }
 }
 
 /* [project]/src/components/navbar/styles.module.css [client] (css) */
@@ -194,6 +198,11 @@
   padding-block: 1rem;
   padding-inline: 2.5rem;
   box-shadow: 10px 10px 15px #adadad;
+}
+
+.index-module__wh4uvW__profileContainer_flex {
+  gap: .8rem;
+  display: flex;
 }
 
 /*# sourceMappingURL=src_0ee8dcfb._.css.map*/

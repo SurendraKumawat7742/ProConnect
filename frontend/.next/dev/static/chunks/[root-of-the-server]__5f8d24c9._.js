@@ -464,7 +464,7 @@ function triggerUpdate(msg) {
 }),
 "[project]/src/pages/login/index.jsx [client] (ecmascript)", ((__turbopack_context__, module, exports) => {
 
-const e = new Error("Could not parse module '[project]/src/pages/login/index.jsx'\n\nExpected '</', got '}'");
+const e = new Error("Could not parse module '[project]/src/pages/login/index.jsx'\n\nLegacy octal escape is not permitted in strict mode");
 e.code = 'MODULE_UNPARSABLE';
 throw e;
 }),

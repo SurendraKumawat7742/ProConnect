@@ -254,7 +254,7 @@ const authSlice = (0, __TURBOPACK__imported__module__$5b$externals$5d2f40$reduxj
             state.isLoading = false;
             state.isError = false;
             state.isSuccess = true;
-            state.loggedIn = true;
+            // state.loggedIn = true;
             state.message = {
                 message: "Registration is successful, please login"
             };

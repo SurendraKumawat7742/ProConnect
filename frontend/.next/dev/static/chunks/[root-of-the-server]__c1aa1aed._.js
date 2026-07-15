@@ -706,7 +706,7 @@ const authSlice = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modul
             state.isLoading = false;
             state.isError = false;
             state.isSuccess = true;
-            state.loggedIn = true;
+            // state.loggedIn = true;
             state.message = {
                 message: "Registration is successful, please login"
             };
@@ -1798,11 +1798,11 @@ var _s = __turbopack_context__.k.signature();
 function ProfilePage() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(36);
-    if ($[0] !== "7bcf0e51b92e21fa4655fb4006f988a3d198e851a8d38f6235887cf0565b7afe") {
+    if ($[0] !== "ff7f85fd0eb386492d3b7b186750bd323675ef7ef04d55672482a1e75a4a3ae1") {
         for(let $i = 0; $i < 36; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "7bcf0e51b92e21fa4655fb4006f988a3d198e851a8d38f6235887cf0565b7afe";
+        $[0] = "ff7f85fd0eb386492d3b7b186750bd323675ef7ef04d55672482a1e75a4a3ae1";
     }
     const dispatch = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$redux$2f$dist$2f$react$2d$redux$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__["useDispatch"])();
     const authState = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$redux$2f$dist$2f$react$2d$redux$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__["useSelector"])(_ProfilePageUseSelector);
@@ -2068,6 +2068,7 @@ function ProfilePage() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
                                             value: userProfile.bio,
+                                            placeholder: "About",
                                             onChange: {
                                                 "ProfilePage[<textarea>.onChange]": (e_2)=>{
                                                     setUserProfile({

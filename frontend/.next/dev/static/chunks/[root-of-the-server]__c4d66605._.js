@@ -812,7 +812,7 @@ const authSlice = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modul
             state.isLoading = false;
             state.isError = false;
             state.isSuccess = true;
-            state.loggedIn = true;
+            // state.loggedIn = true;
             state.message = {
                 message: "Registration is successful, please login"
             };

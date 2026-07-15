@@ -105,7 +105,7 @@ export default function ProfilePage() {
                   </div>
 
                   <div>
-                    <textarea value={userProfile.bio} onChange={(e)=>{
+                    <textarea value={userProfile.bio} placeholder={'About'} onChange={(e)=>{
                       setUserProfile({...userProfile, bio: e.target.value});
                     }} 
                     rows={Math.max(3, Math.ceil(userProfile.bio.length / 80))}

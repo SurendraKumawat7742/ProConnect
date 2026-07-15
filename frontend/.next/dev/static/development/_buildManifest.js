@@ -17,6 +17,9 @@ self.__BUILD_MANIFEST = {
   "/profile": [
     "static/chunks/pages/profile.js"
   ],
+  "/view_profile/[username]": [
+    "static/chunks/pages/view_profile/[username].js"
+  ],
   "__rewrites": {
     "afterFiles": [],
     "beforeFiles": [],
