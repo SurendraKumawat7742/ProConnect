@@ -27,11 +27,11 @@ export default function loginComponent() {
     }
   },[authState.loggedIn])
 
-  useEffect(()=>{
-    if(localStorage.getItem("token")){
-      router.push("/dashboard")
-    }
-  }, [])
+  // useEffect(()=>{
+  //   if(localStorage.getItem("token")){
+  //     router.push("/dashboard")
+  //   }
+  // }, [])      // It gives error when we close tab without logged out, when we logged out then token automatically removed.
 
   useEffect(()=>{
     dispatch(emptyMessage())

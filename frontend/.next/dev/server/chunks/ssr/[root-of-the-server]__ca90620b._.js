@@ -267,11 +267,11 @@ function loginComponent() {
     }, [
         authState.loggedIn
     ]);
-    (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useEffect"])(()=>{
-        if (localStorage.getItem("token")) {
-            router.push("/dashboard");
-        }
-    }, []);
+    // useEffect(()=>{
+    //   if(localStorage.getItem("token")){
+    //     router.push("/dashboard")
+    //   }
+    // }, [])      // It gives error when we close tab without logged out, when we logged out then token automatically removed.
     (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useEffect"])(()=>{
         dispatch((0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$config$2f$redux$2f$reducer$2f$authReducer$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["emptyMessage"])());
     }, [

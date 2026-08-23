@@ -1074,13 +1074,11 @@ function loginComponent() {
     }["loginComponent.useEffect"], [
         authState.loggedIn
     ]);
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useEffect"])({
-        "loginComponent.useEffect": ()=>{
-            if (localStorage.getItem("token")) {
-                router.push("/dashboard");
-            }
-        }
-    }["loginComponent.useEffect"], []);
+    // useEffect(()=>{
+    //   if(localStorage.getItem("token")){
+    //     router.push("/dashboard")
+    //   }
+    // }, [])      // It gives error when we close tab without logged out, when we logged out then token automatically removed.
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "loginComponent.useEffect": ()=>{
             dispatch((0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$config$2f$redux$2f$reducer$2f$authReducer$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["emptyMessage"])());
@@ -1118,7 +1116,7 @@ function loginComponent() {
                                 children: userLoginMethod ? "Sign in" : "Sign up"
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/login/index.jsx",
-                                lineNumber: 50,
+                                lineNumber: 52,
                                 columnNumber: 10
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1128,7 +1126,7 @@ function loginComponent() {
                                 children: authState.message.message
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/login/index.jsx",
-                                lineNumber: 51,
+                                lineNumber: 53,
                                 columnNumber: 10
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1144,7 +1142,7 @@ function loginComponent() {
                                                 placeholder: "Username"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/login/index.jsx",
-                                                lineNumber: 58,
+                                                lineNumber: 60,
                                                 columnNumber: 13
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1154,13 +1152,13 @@ function loginComponent() {
                                                 placeholder: "Name"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/login/index.jsx",
-                                                lineNumber: 59,
+                                                lineNumber: 61,
                                                 columnNumber: 13
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/login/index.jsx",
-                                        lineNumber: 57,
+                                        lineNumber: 59,
                                         columnNumber: 32
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1170,7 +1168,7 @@ function loginComponent() {
                                         placeholder: "Email"
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/login/index.jsx",
-                                        lineNumber: 62,
+                                        lineNumber: 64,
                                         columnNumber: 11
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1180,7 +1178,7 @@ function loginComponent() {
                                         placeholder: "Password"
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/login/index.jsx",
-                                        lineNumber: 64,
+                                        lineNumber: 66,
                                         columnNumber: 11
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1196,24 +1194,24 @@ function loginComponent() {
                                             children: userLoginMethod ? "Sign in" : "Sign up"
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/login/index.jsx",
-                                            lineNumber: 73,
+                                            lineNumber: 75,
                                             columnNumber: 13
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/login/index.jsx",
-                                        lineNumber: 66,
+                                        lineNumber: 68,
                                         columnNumber: 11
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/login/index.jsx",
-                                lineNumber: 55,
+                                lineNumber: 57,
                                 columnNumber: 10
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/login/index.jsx",
-                        lineNumber: 49,
+                        lineNumber: 51,
                         columnNumber: 8
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1224,13 +1222,13 @@ function loginComponent() {
                                     children: "Don't have an account"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/login/index.jsx",
-                                    lineNumber: 82,
+                                    lineNumber: 84,
                                     columnNumber: 30
                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     children: "Already have an account"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/login/index.jsx",
-                                    lineNumber: 82,
+                                    lineNumber: 84,
                                     columnNumber: 61
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1246,43 +1244,43 @@ function loginComponent() {
                                         children: userLoginMethod ? "Sign up" : "Sign in"
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/login/index.jsx",
-                                        lineNumber: 89,
+                                        lineNumber: 91,
                                         columnNumber: 13
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/login/index.jsx",
-                                    lineNumber: 83,
+                                    lineNumber: 85,
                                     columnNumber: 11
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/login/index.jsx",
-                            lineNumber: 81,
+                            lineNumber: 83,
                             columnNumber: 9
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/pages/login/index.jsx",
-                        lineNumber: 80,
+                        lineNumber: 82,
                         columnNumber: 8
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/pages/login/index.jsx",
-                lineNumber: 48,
+                lineNumber: 50,
                 columnNumber: 6
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/pages/login/index.jsx",
-            lineNumber: 47,
+            lineNumber: 49,
             columnNumber: 5
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/pages/login/index.jsx",
-        lineNumber: 46,
+        lineNumber: 48,
         columnNumber: 10
     }, this);
 }
-_s(loginComponent, "GyyAxS1B3+JRNe8S0Oas3NNDk80=", false, function() {
+_s(loginComponent, "UYh77SaQYWK0dytLGPO6lVZmokw=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$redux$2f$dist$2f$react$2d$redux$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__["useSelector"],
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"],
