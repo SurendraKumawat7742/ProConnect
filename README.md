@@ -1,42 +1,138 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+## 🚀 ProConnect
 
-[Live](https://linkedin-clone-git-main-surendrakumawat7742s-projects.vercel.app/).
+> A professional networking platform inspired by LinkedIn, built as a full-stack web 
+
+ProConnect is a full-stack professional networking platform where users can
+create profiles, connect with other professionals, share content, and build
+their professional network.
+
+## 🌐 Live Demo
+
+[Visit ProConnect](https://linkedin-clone-git-main-surendrakumawat7742s-projects.vercel.app/).
+
+## ✨ Features
+
+- 🔐 User authentication
+- 👤 Create and manage professional profiles
+- 📝 Create and manage posts
+- ❤️ Interact with posts
+- 🤝 Connect with other users
+- 🔎 Discover other professionals
+- 📄 Profile / document generation
+- 📷 Image and file uploads
+- ⚡ Responsive user interface
+- 🔄 REST API based backend
+- 🗄️ MongoDB database
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- Next.js
+- React
+- Redux Toolkit
+- React Redux
+- Axios
+- JavaScript
+
+### Backend
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- REST APIs
+- JWT / Authentication
+- Multer
+- bcrypt
+
+### Tools
+
+- Git & GitHub
+- Vercel
+- MongoDB
+
+---
+
+## 🏗️ Project Architecture
+
+ProConnect
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── config/
+│   │   ├── layout/
+│   │   ├── pages/
+│   │   └── styles/
+│   └── package.json
+│
+├── backend/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── uploads/
+│   ├── server.js
+│   └── package.json
+│
+└── README.md
+
+## 🔄 Application Flow
+
+User
+  │
+  ▼
+Frontend (Next.js)
+  │
+  │ HTTP Requests
+  ▼
+Backend (Express.js)
+  │
+  ├── Authentication
+  ├── User Management
+  ├── Post Management
+  ├── Connection Management
+  └── File Handling
+  │
+  ▼
+MongoDB
 
 ## Getting Started
 
-First, run the development server:
+### Clone the repository
 
-```bash
+git clone https://github.com/SurendraKumawat7742/ProConnect.git
+cd ProConnect
+
+### Setup Backend
+
+cd backend
+npm install
+
+Create a .env file inside the backend directory:
+
+MONGO_URI=your_mongodb_connection_string
+
+Start the backend server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Setup Frontend
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Open a new terminal
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+cd frontend
+npm install
+npm run dev
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+### Open
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open your browser and visit:
 
-## Learn More
+http://localhost:9080
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+The application frontend is deployed using Vercel.
