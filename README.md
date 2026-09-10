@@ -78,9 +78,9 @@ ProConnect
 │   └── package.json
 │
 └── README.md
-
+```
 ## 🔄 Application Flow
-
+```text
 User
   │
   ▼
@@ -98,19 +98,19 @@ Backend (Express.js)
   │
   ▼
 MongoDB
-
+```
 ## Getting Started
 
 ### Clone the repository
-
+```bash
 git clone https://github.com/SurendraKumawat7742/ProConnect.git
 cd ProConnect
-
+```
 ### Setup Backend
-
+```bash
 cd backend
 npm install
-
+```
 Create a .env file inside the backend directory:
 
 MONGO_URI=your_mongodb_connection_string
@@ -122,11 +122,11 @@ npm run dev
 ### Setup Frontend
 
 Open a new terminal
-
+```bash
 cd frontend
 npm install
 npm run dev
-
+```
 ### Open
 
 Open your browser and visit:
