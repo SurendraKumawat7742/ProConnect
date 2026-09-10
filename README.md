@@ -57,7 +57,7 @@ their professional network.
 ---
 
 ## 🏗️ Project Architecture
-
+```text
 ProConnect
 │
 ├── frontend/
@@ -80,7 +80,7 @@ ProConnect
 └── README.md
 
 ## 🔄 Application Flow
-
+```text
 User
   │
   ▼
@@ -102,7 +102,7 @@ MongoDB
 ## Getting Started
 
 ### Clone the repository
-
+```bash
 git clone https://github.com/SurendraKumawat7742/ProConnect.git
 cd ProConnect
 
